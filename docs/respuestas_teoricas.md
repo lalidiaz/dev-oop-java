@@ -228,7 +228,7 @@ La diferencia principal entre clases abstractas e interfaces es que las clases a
 
 ------------------------------------------------------------------
 
-5. **Constructores**: ¿Cuál es el propósito de un constructor en una clase Java? Menciona la diferencia entre un constructor por defecto y un constructor parametrizado.
+5. **Constructores**:¿Cuál es el propósito de un constructor en una clase Java? Menciona la diferencia entre un constructor por defecto y un constructor parametrizado.
 
 En Java, un constructor es un método especial utilizado para inicializar objetos. A diferencia de los métodos normales, los constructores se invocan cuando se crea una instancia de una clase. Tienen el mismo nombre que la clase y no tienen tipo de retorno. Los constructores son esenciales para establecer los valores iniciales de los atributos del objeto y prepararlo para su uso.
 
@@ -273,7 +273,7 @@ public class Coche {
 
 ------------------------------------------------------------------
 
-6. **Interfaces**: Define qué es una interfaz en Java y explica en qué se diferencia de una clase abstracta. ¿Cuándo es preferible utilizar una interfaz?
+6. **Interfaces**:Define qué es una interfaz en Java y explica en qué se diferencia de una clase abstracta. ¿Cuándo es preferible utilizar una interfaz?
 
 Una interfaz en Java es un tipo de referencia similar a una clase que contiene únicamente constantes, firmas de métodos, métodos default, métodos estáticos y tipos anidados. Las interfaces actúan como un contrato que las clases deben implementar.
 
@@ -321,7 +321,7 @@ Se prefiere usar interfaces cuando:
 ------------------------------------------------------------------
 
 
-7. **Sobrecarga vs. Sobreescritura**: Explica la diferencia entre sobrecarga (overloading) y sobreescritura (overriding) de métodos. ¿Qué ventajas ofrece cada uno en el diseño de clases?
+7. **Sobrecarga vs. Sobreescritura**:Explica la diferencia entre sobrecarga (overloading) y sobreescritura (overriding) de métodos. ¿Qué ventajas ofrece cada uno en el diseño de clases?
 
 En Java, dos o más métodos pueden tener el mismo nombre si difieren en sus parámetros (diferente número de parámetros, diferentes tipos de parámetros, o ambos). Estos métodos se llaman métodos sobrecargados y esta característica se llama sobrecarga de métodos. Por ejemplo:
 
@@ -395,7 +395,7 @@ _Ventajas de la sobreescritura (overriding):_
 
 ------------------------------------------------------------------
 
-8. **Palabras clave "this" y "super"**: ¿Qué significan y para qué se utilizan las palabras clave this y super en Java? Proporciona ejemplos de situaciones en las que se usan.
+8. **Palabras clave "this" y "super"**:¿Qué significan y para qué se utilizan las palabras clave this y super en Java? Proporciona ejemplos de situaciones en las que se usan.
 
 La palabra clave `this` se refiere al objeto actual en un método o constructor.
 
@@ -462,7 +462,7 @@ public class Main {
 
 ------------------------------------------------------------------
 
-9. **Herencia Múltiple**: Java no permite la herencia múltiple de clases. ¿Cómo se puede simular o gestionar este concepto utilizando otras herramientas del lenguaje?
+9. **Herencia Múltiple**:Java no permite la herencia múltiple de clases. ¿Cómo se puede simular o gestionar este concepto utilizando otras herramientas del lenguaje?
 
 En Java, efectivamente no se permite la herencia múltiple de clases (a diferencia de lenguajes como C++), pero ofrece mecanismos alternativos para simular o gestionar este concepto:
 
@@ -578,7 +578,7 @@ class Pato {
 }
 ```
 
-10. **Patrones de Diseño**: Explica brevemente qué son los patrones de diseño en la POO y menciona dos ejemplos (por ejemplo, Singleton, Factory, Observer, etc.) indicando su utilidad.
+10. **Patrones de Diseño**:Explica brevemente qué son los patrones de diseño en la POO y menciona dos ejemplos (por ejemplo, Singleton, Factory, Observer, etc.) indicando su utilidad.
 
 Los patrones de diseño son soluciones habituales a problemas que ocurren con frecuencia en el diseño de software. Son como planos prefabricados que se pueden personalizar para resolver un problema de diseño recurrente en tu código.
 
